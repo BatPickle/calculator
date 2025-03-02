@@ -1,0 +1,92 @@
+@media (orientation: portrait) {
+*{
+    /* border: 1px solid blue; */
+    font-size: 2.5rem;
+}
+#calcMainBody {
+background-color: #d5bdaf;
+border-radius: 3vw;
+display: flex;
+flex-wrap: wrap;
+width: 70vw;
+height: 120vw;
+margin-left: 2vw;
+margin-top: 3vw;
+}
+
+button{
+    border-radius: 2vw;
+    margin: .4vw;
+}
+
+#calcDisplay{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #e3d5ca;
+    border: 2vw solid #d6ccc2;
+    border-radius: 3vw;
+    width: 80vw;
+    height: 30vw;
+    font-size: 3rem;
+    margin: 2vw 2vw 0 2vw;
+}
+
+#calcButtonArea{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1vw 0 10vw 0;
+}
+
+#calcNumbers{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50vw;
+}
+
+#calcNumbers button{
+    width: 15vw;
+    height: 15vw;
+    background-color: #e9edc9;
+}
+
+
+#calcOperators{
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+}
+
+#calcOperators button{
+    height: 15vw;
+    background-color: #d4a373;
+}
+
+
+#calcEqualClear{
+    display: flex;
+    height: 15vw;
+    width: 50vw;
+    margin-top: 3vw;
+    margin-right: 17vw;
+}
+
+/* #calcEqualClear button{
+    width: 40vw;
+} */
+
+#calcBtnClear{
+    width: 25vw;
+    background-color: #a98467;
+}
+
+#calcBtnEquals{
+    width: 50vw;
+    background-color: #a98467;
+}
+
+
+}
